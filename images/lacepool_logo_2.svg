@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="295px" height="373px" viewBox="0 0 295 373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(-3.000000, 6.000000)">
+            <g transform="translate(146.000000, 184.000000) scale(-1, 1) translate(-146.000000, -184.000000) " sketch:type="MSShapeGroup">
+                <circle id="Oval-1" stroke="#FFFFFF" stroke-width="5" fill="#380000" cx="232" cy="281" r="18"></circle>
+                <circle id="Oval-1" stroke="#FFFFFF" stroke-width="5" fill="#380000" cx="132" cy="281" r="18"></circle>
+                <path d="M130.3125,268.367188 C130.3125,268.367188 260.941406,176.695313 260.941406,68.09375 C260.941406,-40.5078125 127.880859,-5.17578146 113.664063,87.4804688 C99.4472655,180.136719 130.3125,268.367188 130.3125,268.367188 Z" id="Path-1" stroke="#B80000" stroke-width="12"></path>
+                <path d="M21.3125,281.367188 C21.3125,281.367188 151.941406,189.695313 151.941406,81.09375 C151.941406,-27.5078125 18.8808595,7.82421854 4.6640625,100.480469 C-9.55273449,193.136719 21.3125,281.367188 21.3125,281.367188 Z" id="Path-1" stroke="#B80000" stroke-width="12" stroke-linecap="round" transform="translate(76.431314, 147.656977) scale(-1, 1) translate(-76.431314, -147.656977) "></path>
+                <path d="M232,329 C270.314848,320.503724 278,281 278,281" id="Path-6" stroke="#B70000" stroke-width="12" stroke-linecap="round" transform="translate(255.000000, 305.000000) scale(1, -1) translate(-255.000000, -305.000000) "></path>
+                <path d="M287.835222,367.174842 C287.835222,367.174842 284.815194,363.97621 281.581289,365.575526 C278.347383,367.174842 280.104241,328.421281 284.72514,335.320916 C289.34604,342.220551 287.835222,367.174842 287.835222,367.174842 Z" id="Path-4" fill="#7A0000" transform="translate(284.000000, 350.835971) scale(1, -1) rotate(13.000000) translate(-284.000000, -350.835971) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

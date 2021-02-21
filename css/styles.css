@@ -19,9 +19,27 @@ b {
   font-weight: 500;
 }
 
+header {
+  padding: .5rem 2rem;
+  background: #FFF;
+  height: 100px;
+  position: relative;
+}
+
 .hero {
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 11rem;
   background: linear-gradient(315deg, rgb(255, 255, 255), rgb(210, 210, 210));
+}
+
+.logo img {
+  width: 120px;
+  position: absolute;
+  top: 1rem;
+}
+
+.logo p {
+  padding-left: 9rem;
+  color: #B70000;
 }
 
 .adapools {

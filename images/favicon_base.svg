@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="273px" height="297px" viewBox="0 0 273 297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(6.000000, 6.000000)" stroke="#B80000" stroke-width="12">
+            <g transform="translate(130.500000, 141.000000) scale(-1, 1) translate(-130.500000, -141.000000) " id="Path-1" sketch:type="MSShapeGroup">
+                <path d="M130.3125,268.367188 C130.3125,268.367188 260.941406,176.695313 260.941406,68.09375 C260.941406,-40.5078125 127.880859,-5.17578146 113.664063,87.4804688 C99.4472655,180.136719 130.3125,268.367188 130.3125,268.367188 Z"></path>
+                <path d="M21.3125,281.367188 C21.3125,281.367188 151.941406,189.695313 151.941406,81.09375 C151.941406,-27.5078125 18.8808595,7.82421854 4.6640625,100.480469 C-9.55273449,193.136719 21.3125,281.367188 21.3125,281.367188 Z" stroke-linecap="round" transform="translate(76.431314, 147.656977) scale(-1, 1) translate(-76.431314, -147.656977) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

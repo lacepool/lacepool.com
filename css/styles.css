@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,300i,400,400i,500,500i');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500');
 
 html, body {
   padding: 0;
@@ -7,7 +7,7 @@ html, body {
 
 body {
   font-family: "Quicksand", sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   letter-spacing: 0.05rem;
   font-weight: 400;
   height: 100vh;
@@ -19,35 +19,66 @@ b {
   font-weight: 500;
 }
 
+header, .main, .hero {
+  padding: 3rem 2rem;
+}
+
 header {
-  padding: .5rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   background: #FFF;
-  height: 100px;
+  height: 5rem;
   position: relative;
 }
 
+header .logo {
+  width: 6rem;
+  vertical-align: top;
+}
+
+header span {
+  color: #B70000;
+  font-size: 1.25rem;
+}
+
+header div {
+  display: inline-block;
+  padding-left: 1rem;
+  max-width: 21rem;
+  margin-top: .33rem;
+}
+
+header div h1 {
+  font-size: 0.9rem;
+}
+
 .hero {
-  padding: 2rem 2rem 2rem 11rem;
+  padding-top: 5rem;
+  font-size: 1.5rem;
   background: linear-gradient(315deg, rgb(255, 255, 255), rgb(210, 210, 210));
 }
 
-.logo img {
-  width: 120px;
-  position: absolute;
-  top: 1rem;
+.hero h2 {
+  max-width: 40rem;
+  display: inline-block;
 }
 
-.logo p {
-  padding-left: 9rem;
-  color: #B70000;
+.main section {
+  margin-bottom: 3rem;
+  max-width: 50rem;
 }
 
 .adapools {
   width: 100%;
-  height: 250px;
+  height: 259px;
 }
 
-h1 {
+h1, h2, h3, h4 {
   margin-top: 0;
   font-weight: 400;
+}
+
+a, a:visited {
+  color: #B70000;
+  text-decoration: none;
 }

@@ -19,7 +19,7 @@ b {
   font-weight: 500;
 }
 
-header, .main, .hero {
+header, .main, .hero, nav {
   padding: 3rem 2rem;
 }
 
@@ -52,6 +52,19 @@ header div h1 {
   font-size: 0.9rem;
 }
 
+nav a, nav a:visited {
+  display: inline-block;
+  padding: 1rem;
+  background: #B70000;
+  color: #FFF;
+  margin: .15rem 0;
+}
+
+nav a:hover {
+  background: #FFF;
+  color: #B70000;
+}
+
 .hero {
   padding-top: 5rem;
   font-size: 1.5rem;
@@ -65,7 +78,7 @@ header div h1 {
 
 .main section {
   margin-bottom: 3rem;
-  max-width: 50rem;
+  max-width: 45rem;
 }
 
 .adapools {
@@ -76,9 +89,72 @@ header div h1 {
 h1, h2, h3, h4 {
   margin-top: 0;
   font-weight: 400;
+  padding: 1rem 0 .5rem 0;
+}
+
+p {
+  margin-bottom: 2rem;
 }
 
 a, a:visited {
   color: #B70000;
   text-decoration: none;
+}
+
+/* TABLE */
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+table * { position: relative }
+table td, th {
+  padding: 1rem;
+  vertical-align: top;
+}
+
+table thead tr {
+  height: 60px;
+  background: rgb(210, 210, 210);
+  font-size: 16px;
+}
+
+table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+table tbody tr:last-child { border: 0 }
+
+td, th { text-align: left }
+td.l, th.l { text-align: right }
+td.c, th.c { text-align: center }
+td.r, th.r { text-align: center }
+
+/*up to 568px*/
+@media screen and (max-width: 45em) {
+  table { display: block }
+
+  table > *, tr, td, th { display: block }
+
+  table thead { display: none }
+  table tbody tr { height: auto; padding: 8px 0 }
+  table tbody tr td { padding-left: 45%; margin-bottom: 12px }
+  table tbody tr td:last-child { margin-bottom: 0 }
+  table tbody tr td:before {
+    position: absolute;
+    font-weight: 700;
+    width: 40%;
+    left: 10px;
+  }
+
+  table tbody tr td:nth-child(1):before { content: "Name" }
+  table tbody tr td:nth-child(2):before { content: "Description" }
+  table tbody tr td:nth-child(3):before { content: "Website" }
 }

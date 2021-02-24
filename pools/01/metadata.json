@@ -1,6 +1,7 @@
 {
-  "name": "Open Source Software Fund",
+  "name": "Lace 1 - Open Source Software Fund",
   "description": "Staking with LACE contributes to the Open Source Software Fund.",
   "ticker": "LACE1",
-  "homepage": "https://lacepools.com"
+  "homepage": "https://lacepools.com",
+  "extended": "https://lacepools.com/pools/01/extended_metadata.json"
 }

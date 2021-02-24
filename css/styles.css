@@ -20,7 +20,10 @@ b {
 }
 
 header, .main, .hero, nav {
-  padding: 3rem 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 header {
@@ -34,6 +37,15 @@ header {
 header .logo {
   width: 6rem;
   vertical-align: top;
+  left: -0.7rem;
+  position: relative;
+  margin-right: 0.5rem;
+}
+
+header div {
+  display: inline-block;
+  max-width: 21rem;
+  margin-top: .33rem;
 }
 
 header span {
@@ -41,15 +53,9 @@ header span {
   font-size: 1.25rem;
 }
 
-header div {
-  display: inline-block;
-  padding-left: 1rem;
-  max-width: 21rem;
-  margin-top: .33rem;
-}
-
-header div h1 {
+header h1 {
   font-size: 0.9rem;
+  padding-top: 0.25rem;
 }
 
 nav a, nav a:visited {
@@ -58,15 +64,17 @@ nav a, nav a:visited {
   background: #B70000;
   color: #FFF;
   margin: .15rem 0;
+  border: 1px solid rgba(168,33,22, 1);
 }
 
-nav a:hover {
+nav a:hover, nav a:active {
   background: #FFF;
   color: #B70000;
+  border: 1px solid rgba(168,33,22, .33);
 }
 
 .hero {
-  padding-top: 5rem;
+  padding-top: 4rem;
   font-size: 1.5rem;
   background: linear-gradient(315deg, rgb(255, 255, 255), rgb(210, 210, 210));
 }
@@ -74,6 +82,7 @@ nav a:hover {
 .hero h2 {
   max-width: 40rem;
   display: inline-block;
+  padding: 0;
 }
 
 .main section {
@@ -139,6 +148,19 @@ td.r, th.r { text-align: center }
 
 /*up to 568px*/
 @media screen and (max-width: 45em) {
+  header, .main, .hero, nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  header div {
+    max-width: 60%;
+  }
+
+  header h1 {
+    font-size: 0.75rem;
+  }
+
   table { display: block }
 
   table > *, tr, td, th { display: block }

@@ -79,9 +79,8 @@ nav a:hover, nav a:active {
   background: linear-gradient(315deg, rgb(255, 255, 255), rgb(210, 210, 210));
 }
 
-.hero h2 {
+.hero h2, .hero h3 {
   max-width: 40rem;
-  display: inline-block;
   padding: 0;
 }
 

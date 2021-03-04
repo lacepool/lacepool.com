@@ -1,16 +1,16 @@
 {
     "info": {
-        "url_png_icon_64x64": "https://lacepools.com/images/lacepools_logo_adapools_64x64.png",
-        "url_png_logo": "https://lacepools.com/images/lacepools_logo_adapools.png",
+        "url_png_icon_64x64": "https://lacepool.com/images/lacepool_logo_adapools_64x64.png",
+        "url_png_logo": "https://lacepool.com/images/lacepool_logo_adapools.png",
         "location": "Frankfurt, Germany",
         "social": {
-            "twitter_handle": "lacepools",
-            "telegram_handle": "lacepools",
+            "twitter_handle": "lacepool",
+            "telegram_handle": "lacepool",
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
             "discord_handle": "",
-            "github_handle": "lacepools"
+            "github_handle": "lacepool"
         },
         "company": {
             "name": "Robin Böning",

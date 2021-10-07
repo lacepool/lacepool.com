@@ -20,10 +20,7 @@ b {
 }
 
 header, .main, .hero, nav {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 3rem 10vw;
 }
 
 header {
@@ -155,8 +152,8 @@ td.r, th.r { text-align: center }
 /*up to 568px*/
 @media screen and (max-width: 45em) {
   header, .main, .hero, nav {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 7vw;
+    padding-right: 7vw;
   }
 
   header div {

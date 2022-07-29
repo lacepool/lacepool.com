@@ -20,5 +20,6 @@
     "my-pool-ids": {
         "0": "c04742e0e70c0f52950b465038ef97c7c7e6fe71a20bd88c1b655b63"
     },
-    "when-satured-then-recommend": {}
+    "when-satured-then-recommend": {},
+    "cexplorer-verification": "14887f29adc46c7d3d"
 }
